@@ -23,6 +23,7 @@ app.use("/api/threads", require("./routes/threads"));
 app.use("/api/tiktok", require("./routes/tiktok"));
 app.use("/api/tumblr", require("./routes/tumblr"));
 app.use("/api/twitter", require("./routes/twitter"));
+app.use("/api/terabox", require("./routes/terabox"));
 app.use("/api/youtube", require("./routes/youtube"));
 
 const endpoints = [
@@ -40,6 +41,7 @@ const endpoints = [
   "/api/tiktok",
   "/api/tumblr",
   "/api/twitter",
+  "/api/terabox",
   "/api/youtube",
 ];
 
